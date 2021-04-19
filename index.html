@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>table and list</title>
+</head>
+<body>
+		<h3 style="color:green">下面开始新建一个表格</h3>
+		<table border="1" cellpadding="10" cellsacing="10">
+			<caption><b>学生基本信息</b></caption>
+			<tr>
+				<th>姓名</th>
+				<th>年龄</th>
+				<th>体重</th>
+			</tr>
+			<tr>
+				<td>小明</td>
+				<td>20</td>
+				<td>67</td>
+
+			</tr>
+			<tr>
+				<td>大白</td>
+				<td>23</td>
+				<td>75</td>
+			</tr>
+			<tr>
+				<td>小丁</td>
+				<td>23</td>
+				<td>75</td>
+			</tr>
+		</table>
+		<table border="1" cellpadding="10">
+			<caption><b>我的基本信息</b></caption>
+			<tr>
+				<th>th1</th>
+				<td>th2</td>
+			</tr>
+		</table>
+		<h3 style="color:green">跨行或跨列的表格</h3>
+		<table border="1">
+			<tr>
+				<th>职业</th>
+				<th>收入</th>
+				<th colspan="3">手机号两个到三个联系方式</th>
+			</tr>
+			<tr>
+				<td>老师</td>
+				<td>5000</td>
+				<td>10000</td>
+				<td>20000</td>
+				<td>-</td>
+			</tr>
+		</table>
+		<table border="1">
+			<tr>
+				<th>姓名</th>
+				<th>职业</th>
+				<th colspan="3">装备</th>
+
+			</tr>
+
+			<tr>
+				<td>小丁</td>
+				<td>法师</td>
+				<td>死亡之戒</td>
+				<td>贤者之书</td>
+				<td>亡灵战甲</td>
+			</tr>
+		</table>
+		<table border="1">
+			<tr>
+				<th>姓名</th>
+				<td>小丁</td>
+			</tr>
+			<tr>
+				<th rowspan="3">装备</th>
+				<td>死亡之戒</td>
+			</tr>
+			<tr>
+				<td>贤者之书</td>
+
+			</tr>
+			<tr>
+				<td>亡灵战甲</td>
+			</tr>
+
+		</table>
+		<h3 style="color:green">表格内的标签</h3>
+		<table border="1">
+			<tr>
+				<td>
+					<p>这是一个段落</p>
+					<p>这是另一个段落</p>
+
+				</td>
+				<td>
+					<P>这个段落中还有一个表格</P>
+					<table border="1">
+						<tr>
+							<td>姓名</td>
+							<td>qq/微信/电话</td>
+
+						</tr>
+						<tr>
+							<td>baby</td>
+							<td>我不加你哈哈</td>
+
+						</tr>
+					</table>
+
+				</td>
+				<td>How are you!</td>
+			</tr>
+			<tr>
+				<td>
+					<p>这里面还有一个列表</p>
+					<ul>
+						<li>red</li>
+						<li>blue</li>
+						<li>black</li>
+					</ul>
+				</td>
+				,<td>
+					<img src="images/smile.jpg" alt="" width="50" height="50">
+					<p>这是一张图</p>
+				</td>
+				<td>
+					<p>这是一个链接</p>
+					<a href="https://www.baidu.com">www.baidu.com</a>
+				</td>
+
+			</tr>
+		</table>
+			
+		<h3 style="color:blue">下面是列表的使用</h3>
+		<b>无序列表</b>
+		<ul>
+			<li>ul1</li>
+			<li>ul2</li>
+			<li>ul3</li>
+		</ul>
+		<b>有序列表</b>
+		<ol>
+			<li>ol1</li>
+			<li>ol2</li>
+			<li>ol3</li>
+		</ol>
+		<ol type="A">
+			<li>ol typeA</li>
+			<li>ol typeB</li>
+			<li>ol typeC</li>
+		</ol>
+		<ul style="list-style-type:circle">
+			<li>ul list-style-type:circle1</li>
+			<li>ul list-style-type:circle2</li>
+			<li>ul list-style-type:circle3</li>
+		</ul>
+		<h4>嵌套列表</h4>
+		<ul>
+			<li>Coffee</li>
+			<li>Tea
+				<ul>
+					<li>Black tea</li>
+					<li>Green tea</li>
+				</ul>
+
+			</li>
+			<li>Milk</li>
+
+		</ul>
+		<h4>嵌套关系</h4>
+		<ul>
+			<li>Coffee</li>
+			<li>Tea
+				<ul>
+					<li>Black tea</li>
+					<li>Green tea
+						<ul>
+							<li>China</li>
+							<li>Afica</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>Milk</li>
+		</ul>
+		<h4>一个自定义列表</h4> 
+		<dl>
+			<dt>dt1</dt>
+			<dd>dd11</dd>
+			<dd>dd12</dd>
+			<dt>dt2</dt>
+			<dd>dd21</dd>
+			<dd>dd22</dd>
+		</dl>
+
+</body>
+</html>
